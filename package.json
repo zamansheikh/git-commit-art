@@ -1,0 +1,22 @@
+{
+  "name": "git-commit-art",
+  "version": "1.0.0",
+  "description": "This repository contains a Node.js script that demonstrates how to create artistic patterns on the GitHub contribution graph by manipulating commit dates. It's intended for educational purposes to understand Git's commit history mechanics and the contribution graph's behavior.",
+  "main": "git_commit_modifier.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node git_commit_modifier.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zamansheikh/git-commit-art.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/zamansheikh/git-commit-art/issues"
+  },
+  "homepage": "https://github.com/zamansheikh/git-commit-art#readme"
+}
