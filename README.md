@@ -21,7 +21,7 @@ The script uses predefined 7x5 grid patterns for letters A-Z. For custom text co
 
 2. **Installation:**
    ```bash
-   npm install jsonfile moment simple-git random readline
+   npm install jsonfile moment simple-git random readline jsonfile
    ```
 
 3. **Running the Script:**
