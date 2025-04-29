@@ -1,8 +1,5 @@
 # Git Commit Art
 
-
-## Screenshot
-
 ![](hack.png)
 
 Git Commit Art is a Node.js script that allows you to create artistic patterns on the GitHub contribution graph by manipulating commit dates. This project is designed for **educational purposes** to explore Git's commit history mechanics and the behavior of the contribution graph.
