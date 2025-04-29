@@ -28,6 +28,12 @@ The script uses predefined 7x5 grid patterns for letters A-Z. For custom text co
    ```bash
    node git_commit_modifier.js
    ```
+   Or for specific options:
+
+   ```bash
+   node git_commit_modifier.js --text "HACK" --start-date "2023-01-01"
+   ```
+
    - Choose option 1 for random commits or option 2 for custom text commits.
    - Follow the prompts to input the number of commits or the text and start date.
 
