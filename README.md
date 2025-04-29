@@ -1,51 +1,82 @@
 # Git Commit Art
 
-This repository contains a Node.js script that demonstrates how to create artistic patterns on the GitHub contribution graph by manipulating commit dates. It's intended for educational purposes to understand Git's commit history mechanics and the contribution graph's behavior.
+Git Commit Art is a Node.js script that allows you to create artistic patterns on the GitHub contribution graph by manipulating commit dates. This project is designed for **educational purposes** to explore Git's commit history mechanics and the behavior of the contribution graph.
 
-**Important:** This tool should not be used to artificially inflate contribution statistics or mislead others about your activity. Such actions are against GitHub's terms of service and can lead to account suspension.
+> **Note:** Misusing this tool to artificially inflate contribution statistics or mislead others violates GitHub's terms of service and may result in account suspension.
 
-## Features
+---
+
+## ✨ Features
 
 - **Random Commits:** Generate a specified number of commits on random dates within the past year.
-- **Custom Text Commits:** Create commits on specific dates to form text patterns (e.g., "HACK") on the contribution graph.
+- **Custom Text Patterns:** Create commits on specific dates to form text patterns (e.g., "HACK") on the contribution graph.
 
-## How It Works
+---
 
-The script uses predefined 7x5 grid patterns for letters A-Z. For custom text commits, it calculates the dates corresponding to the cells needed to form the text on the contribution graph, starting from a user-specified date.
+## 🛠️ How It Works
 
-## Usage
+- The script uses predefined 7x5 grid patterns for letters A-Z.
+- For custom text commits, it calculates the dates corresponding to the cells needed to form the text on the contribution graph, starting from a user-specified date.
 
-1. **Prerequisites:**
-   - Node.js installed
-   - Git repository initialized and linked to GitHub
+---
 
-2. **Installation:**
-   ```bash
-   npm install jsonfile moment simple-git random readline
-   ```
+## 🚀 Getting Started
 
-3. **Running the Script:**
-   ```bash
-   node git_commit_modifier.js
-   ```
-   Or for specific options:
+### 1. Prerequisites
+- Install [Node.js](https://nodejs.org/)
+- Initialize a Git repository and link it to GitHub.
 
-   ```bash
-   node git_commit_modifier.js --text "HACK" --start-date "2023-01-01"
-   ```
+### 2. Installation
+Run the following command to install the required dependencies:
+```bash
+npm install jsonfile moment simple-git random readline
+```
 
-   - Choose option 1 for random commits or option 2 for custom text commits.
-   - Follow the prompts to input the number of commits or the text and start date.
+### 3. Running the Script
+You can run the script using one of the following commands:
 
-## Ethical Considerations
+#### Option 1: Direct Execution
+```bash
+node git_commit_modifier.js
+```
 
-- Use this tool responsibly and for educational purposes only.
-- Do not use it to misrepresent your contribution activity on GitHub.
+#### Option 2: With Specific Options
+```bash
+node git_commit_modifier.js --text "HACK" --start-date "2023-01-01"
+```
 
-## Contributing
+#### Option 3: Using npm
+```bash
+npm run start
+```
+- This will prompt you to choose between **random commits** or **custom text commits**.
+- For random commits, you will be asked to enter the number of commits and the start date.
+- For custom text commits, you will input the desired text and start date.
 
-Contributions are welcome! Please fork the repository and submit a pull request with your improvements or bug fixes.
+---
 
-## License
+## ⚠️ Ethical Considerations
 
-This project is licensed under the MIT License.
+- Use this tool **responsibly** and for **educational purposes only**.
+- Avoid using it to misrepresent your contribution activity on GitHub.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! To contribute:
+1. Fork this repository.
+2. Create a new branch for your feature or bug fix.
+3. Submit a pull request with your changes.
+
+---
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 📧 Contact
+
+For questions or feedback, feel free to open an issue or submit a pull request.
