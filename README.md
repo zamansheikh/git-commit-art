@@ -1,3 +1,12 @@
+> [!IMPORTANT]
+> **This project has moved.** Git Commit Art is now part of **[GitTimeChanger](https://github.com/zamansheikh/GitTimeChanger)**, rebuilt with lowercase letters, punctuation and accents, a live preview of your graph, and no dependencies:
+>
+> ```bash
+> npx git-time-changer art "Hello!"
+> ```
+>
+> This repository is archived and no longer maintained.
+
 # Git Commit Art
 
 ![](hack.png)
